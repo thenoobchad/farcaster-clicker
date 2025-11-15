@@ -1,15 +1,23 @@
 {
-	"accountAssociation": {
-		"header": "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
-		"payload": "eyJkb21haW4iOiJleGFtcGxlLmNvbSJ9",
-		"signature": "MHg3NmRkOWVlMjE4OGEyMjliNzExZjUzOTkxYTc1NmEzMGZjNTA3NmE5OTU5OWJmOWFmYjYyMzAyZWQxMWQ2MWFmNTExYzlhYWVjNjQ3OWMzODcyMTI5MzA2YmJhYjdhMTE0MmRhMjA4MmNjNTM5MTJiY2MyMDRhMWFjZTY2NjE5OTFj"
-	},
-	"miniapp": {
+	"frame": {
+		"name": "clicker",
 		"version": "1",
-		"name": "Clicker",
-		"iconUrl": "https://example.com/icon.png",
-		
-		"description": "A simple Farcaster clicker"
-	
+		"iconUrl": "https://farcaster-clicker.vercel.app/icon.png",
+		"homeUrl": "https://farcaster-clicker.vercel.app",
+		"imageUrl": "https://farcaster-clicker.vercel.app/image.png",
+		"buttonTitle": "Open cliker",
+		"splashImageUrl": "https://farcaster-clicker.vercel.app/splash.png",
+		"splashBackgroundColor": "#0a0612",
+		"webhookUrl": "https://farcaster-clicker.vercel.app/api/webhook",
+		"subtitle": "play and relax",
+		"description": "a simple clicker",
+		"primaryCategory": "games",
+		"tagline": "fun, relax",
+		"ogTitle": "clicker"
+	},
+	"accountAssociation": {
+		"header": "eyJmaWQiOjExMTAzODEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMTU5ZkRkQUVmRDEzMzcxMEI0Y2M5RjRiRTYwYzlDQ2JDMmE1NDQxIn0",
+		"payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItY2xpY2tlci52ZXJjZWwuYXBwIn0",
+		"signature": "AbDZJeCoOKPQ10tcqBKH4HsBM3hWcx8gbErS9Zo/qM5sco9p/gKAMiPlpXUVmXQkhuG18L+T1/RChKGXUqpK9hs="
 	}
 }
