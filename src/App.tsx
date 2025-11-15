@@ -1,4 +1,5 @@
-import { useState,  useRef, useEffect } from "react"
+import { useState, useRef, useEffect } from "react"
+import { sdk } from "@farcaster/miniapp-sdk";
 
 export default function App() {
 
@@ -8,6 +9,10 @@ export default function App() {
 	const [leaderboard, setLeaderboard] = useState<string[]>([])
 
 	const intervalRef = useRef<number | null>(null)
+
+	useEffect(() => {
+		sdk.actions.ready();
+	}, []);
 
 
 	useEffect(() => {

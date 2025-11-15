@@ -1,0 +1,15 @@
+{
+	"accountAssociation": {
+		"header": "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
+		"payload": "eyJkb21haW4iOiJleGFtcGxlLmNvbSJ9",
+		"signature": "MHg3NmRkOWVlMjE4OGEyMjliNzExZjUzOTkxYTc1NmEzMGZjNTA3NmE5OTU5OWJmOWFmYjYyMzAyZWQxMWQ2MWFmNTExYzlhYWVjNjQ3OWMzODcyMTI5MzA2YmJhYjdhMTE0MmRhMjA4MmNjNTM5MTJiY2MyMDRhMWFjZTY2NjE5OTFj"
+	},
+	"miniapp": {
+		"version": "1",
+		"name": "Clicker",
+		"iconUrl": "https://example.com/icon.png",
+		
+		"description": "A simple Farcaster clicker"
+	
+	}
+}

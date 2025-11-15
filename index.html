@@ -12,7 +12,26 @@
     <meta property="fc:frame:button:1:action" content="link" />
     <meta property="fc:frame:button:1:target" content="https://your-url.vercel.app" />
 
-    <title>GM Clicker</title>
+    <title>Clicker</title>
+
+    <meta 
+      name="fc:miniapp" 
+      content='{
+        "version": "1",
+        "image": "https://your-domain.com/preview-image.jpg",
+        "buttons": [
+          {
+            "label": "Open App",
+            "action": "launch_miniapp"
+          }
+        ]
+      }'
+    />
+    <meta property="og:title" content="clicker" />
+    <meta property="og:description" content="A simple gm clicker" />
+    <meta property="og:image" content="https://your-domain.com/preview-image.jpg" />
+    <meta property="og:type" content="website" />
+    
   </head>
   <body>
     <div id="root"></div>
